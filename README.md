@@ -62,9 +62,11 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+a. Where is closure used in this code? How can you tell? Closure is in personalDice, inner returned function
+
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? Name will be the same, newRoll changes
+
+c. What is the lexical scope of `newRoll`? Function scoped to personalDice
 
 ### Task 2c - Exit Ticket
 
